@@ -1,0 +1,46 @@
+# Node modules
+node_modules/
+
+# Environment variables
+.env
+
+# Test results
+test-results/
+playwright-report/
+test-results.json
+
+# Downloaded images
+images/
+
+# Playwright cache
+playwright/.cache/
+.playwright/
+
+# TypeScript build output
+dist/
+*.js.map
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Coverage
+coverage/
+.nyc_output/
+
+# Temporary files
+*.tmp
+.temp/

@@ -1,0 +1,28 @@
+{
+  "name": "challenge-automation-feq",
+  "version": "1.0.0",
+  "description": "Automation testing framework with Playwright + TypeScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:api": "playwright test tests/api",
+    "test:web": "playwright test tests/web",
+    "test:qa": "TEST_ENV=qa playwright test",
+    "test:cert": "TEST_ENV=cert playwright test",
+    "report": "playwright show-report",
+    "test:headed": "playwright test --headed",
+    "test:debug": "playwright test --debug"
+  },
+  "keywords": ["playwright", "automation", "testing", "typescript"],
+  "author": "FEQ",
+  "license": "ISC",
+  "dependencies": {
+    "@playwright/test": "^1.58.2",
+    "dotenv": "^17.2.4",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "@types/node": "^25.2.3",
+    "typescript": "^5.9.3"
+  }
+}
